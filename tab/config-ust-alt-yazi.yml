@@ -1,0 +1,17 @@
+# Endoria Network - TAB üst/alt yazı (header/footer)
+# TAB'ın oluşturduğu plugins/TAB/config.yml içinde "header-footer:" bölümünü bununla DEĞİŞTİR.
+# Sürüme göre yapı biraz farklı olabilir; senin config.yml'inde "header-footer:" bölümünün
+# nasıl göründüğünü bana atarsan birebir uyarlarım.
+
+header-footer:
+  enabled: true
+  header:
+  - ""
+  - "&5&l✦ &d&lENDORIA NETWORK &5&l✦"
+  - "&7Survival SMP"
+  - ""
+  footer:
+  - ""
+  - "&fOyuncu: &d%online% &8| &fPing: &d%ping%ms"
+  - "&7discord.gg/8kB8bu6dHQ"
+  - ""
