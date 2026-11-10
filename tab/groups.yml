@@ -1,0 +1,36 @@
+# Endoria Network - TAB groups.yml
+# Kopyala: plugins/TAB/groups.yml dosyasının üstüne yaz, sonra /tab reload
+# Her etiket özel font karakteridir (kaynak paketi gerekli).
+
+kurucu:
+  tagprefix: "&f &f"
+  tabprefix: "&f &f"
+
+admin:
+  tagprefix: "&f &f"
+  tabprefix: "&f &f"
+
+moderator:
+  tagprefix: "&f &f"
+  tabprefix: "&f &f"
+
+rehber:
+  tagprefix: "&f &f"
+  tabprefix: "&f &f"
+
+icerikureticisi:
+  tagprefix: "&f &f"
+  tabprefix: "&f &f"
+
+vip:
+  tagprefix: "&f &f"
+  tabprefix: "&f &f"
+
+uye:
+  tagprefix: "&f &f"
+  tabprefix: "&f &f"
+
+# Hiçbir grubu olmayan oyuncu (LuckPerms "default") Üye etiketini alır
+_DEFAULT_:
+  tagprefix: "&f &f"
+  tabprefix: "&f &f"

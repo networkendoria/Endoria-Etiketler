@@ -1,0 +1,12 @@
+{
+  "pack": {
+    "description": "Endoria Network - Rütbe Etiketleri",
+    "pack_format": 34,
+    "supported_formats": {
+      "min_inclusive": 5,
+      "max_inclusive": 64
+    },
+    "min_format": 5,
+    "max_format": 999
+  }
+}

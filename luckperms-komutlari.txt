@@ -1,0 +1,26 @@
+LUCKPERMS KOMUTLARI (sunucu konsoluna ya da oyunda OP iken yaz)
+
+1) Grupları oluştur:
+lp creategroup kurucu
+lp creategroup admin
+lp creategroup moderator
+lp creategroup rehber
+lp creategroup icerikureticisi
+lp creategroup vip
+lp creategroup uye
+
+2) Sıralama (ağırlık). Büyük sayı = üst rütbe:
+lp group kurucu setweight 100
+lp group admin setweight 90
+lp group moderator setweight 80
+lp group rehber setweight 70
+lp group icerikureticisi setweight 60
+lp group vip setweight 50
+lp group uye setweight 10
+
+3) Birine rütbe vermek (OYUNCU_ADI yerine adını yaz):
+lp user OYUNCU_ADI parent set kurucu
+lp user OYUNCU_ADI parent set admin
+(rütbe değiştirirken yine "parent set" kullan, eskisini kendisi siler)
+
+4) Kontrol: lp user OYUNCU_ADI info
