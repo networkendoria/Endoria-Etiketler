@@ -26,8 +26,16 @@ Sunucudaki rütbe etiketlerinin kaynak paketi ve ayar dosyaları.
 
 ```
 resource-pack=https://raw.githubusercontent.com/networkendoria/Endoria-Etiketler/main/Endoria-Etiketler.zip
-resource-pack-sha1=aa32e2c7f81de71c47b6caff21cc198859e97aac
+resource-pack-sha1=f0f296b45a53c30a2b754ffa533532a5992bd8fb
 require-resource-pack=true
+resource-pack-prompt={"text":"Rütbe etiketlerini görmek için kaynak paketini kabul et!"}
 ```
 
 Zip her değiştiğinde SHA-1 de değişir, yukarıdaki değer güncellenmelidir.
+
+## Sunucu kurulumu
+
+- Sunucu: Paper **26.2** (Java 25 gerekir)
+- Oyuncu aralığı: **1.18 – 26.1** (26.2 oyuncuları da girer)
+- Pluginler (`plugins/` klasörüne): LuckPerms, TAB (26.2 uyumlu jar), ViaVersion, ViaBackwards
+- Sıra: pluginleri koy → sunucuyu aç → `luckperms-komutlari.txt` komutlarını yaz → `tab/groups.yml` dosyasını `plugins/TAB/` içine koy → `/tab reload`
